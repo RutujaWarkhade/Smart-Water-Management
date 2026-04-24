@@ -5,10 +5,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # ─── LOAD MODELS ─────────────────────────────────────────
-model = joblib.load("D:/Water_Management/models/best_model.pkl")
-scaler = joblib.load("D:/Water_Management/models/scaler.pkl")
-kmeans = joblib.load("D:/Water_Management/models/kmeans.pkl")
-cluster_scaler = joblib.load("D:/Water_Management/models/cluster_scaler.pkl")
+model = joblib.load("models/best_model.pkl")
+scaler = joblib.load("models/scaler.pkl")
+kmeans = joblib.load("models/kmeans.pkl")
+cluster_scaler = joblib.load("models/cluster_scaler.pkl")
 
 # ─── LOAD DATASET ────────────────────────────────────────
 df = pd.read_csv("D:/Water_Management/water_consumption.csv")
